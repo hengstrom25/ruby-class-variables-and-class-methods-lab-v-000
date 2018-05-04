@@ -18,11 +18,11 @@ class Song
     @@count
   end
   
-  def self.genre
+  def self.genres
     @@genres << genre unless @@genres.include?(genre)
   end
   
-  def self.artist
+  def self.artists
     @@artists << artist unless @@artists.include?(artist)
   end
   
