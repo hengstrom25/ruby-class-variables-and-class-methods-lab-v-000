@@ -3,4 +3,6 @@ class Song
   @@count = 0
   
   def initialize(song)
-    @
+    @song = song
+  end
+end
