@@ -1,5 +1,6 @@
 class Song
   attr_accessor :name, :artist, :genre
+  attr_reader :new_song
   @@count = 0
   @@genre = []
   
